@@ -154,7 +154,7 @@ text-decoration:none
     justify-content: flex-start;
     font-weight: 500;
     font-family: Roboto;
-     color: #fff;
+    color: #fff;
     text-align: left;
     cursor: pointer;
 }
@@ -361,7 +361,6 @@ color:#FFF;
 
 .filters {
     position: absolute;
-    top: 168px;
     left: 427px;
     display: flex;
     flex-direction: row;
@@ -369,6 +368,8 @@ color:#FFF;
     justify-content: flex-start;
     gap: 24px;
     list-style-type: none;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 
 .all {
@@ -443,7 +444,8 @@ color:#FFF;
     height: 420px;
     list-style-type: none;
     flex-grow: 1;
-    margin:8px;
+    margin: 8px;
+    padding: 72px 156px 120px
 }
 .img-icon {
     position: absolute;
