@@ -335,27 +335,22 @@ text-decoration:none
     color: #4d5ae5;
 }
 
+.link-current {
+    color: #4d5ae5;
+}
+
 .all:hover,
-.all:focus {
+.all:focus,
+.button:hover,
+.button:focus {
 background-color: #404bbf;
 color:#FFF;
 }
 .order-service:hover,
 .order-service:focus {
-    color:#000;
+    background-color:#404bbf;
 }
-.button:hover,
-.button:focus{
-    color: #98c1d9;
-}
-.content:active,
-.cont:active,
-.info:active,
-.all:active,
-.order-service:active,
-.button:active {
-    color: #2E2F42;
-}
+
 
 /* style for portfolio.html*/
 
